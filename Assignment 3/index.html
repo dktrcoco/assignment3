@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        h1 {
+            background-color: cyan;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container {
+            text-align: center;
+        }
+        #password {
+            text-align: center;
+        }
+        
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+        <header>
+            <h1>Generate a Password</h1>
+        </header>
+
+        <div class="panel">
+            <!-- <div class="panelHeading">Generage a Password</div> -->
+            <div>
+                <button class="btn btn-primary" type="button" id="generate">
+                    Generate Password
+                </button>
+            </div><div><textarea id="password" style="width: 100%"></textarea></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
